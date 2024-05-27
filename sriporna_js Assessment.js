@@ -33,9 +33,9 @@ function listNFTs() {
     nfts.forEach(nft => {
         console.log("ID: " + nft.id);
         console.log("Name: " + nft.name);
-        console.log("Creator: " + nft.metadata.company);
-        console.log("Value: " + nft.metadata.department);
-        console.log("Description: " + nft.metadata.salary);
+        console.log("Company: " + nft.metadata.company);
+        console.log("Department: " + nft.metadata.department);
+        console.log("Salary: " + nft.metadata.salary);
         console.log('---------------------');
     });
 }
